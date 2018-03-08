@@ -1,0 +1,102 @@
+this is the imformation of SerializedObject data of Shuriken Particle System
+if you need it, use it !
+
+Legacy Effect System Data
+
+Ellipsoid ( use like this : m_Ellipsoid ) (Vector3Value)
+ - m_Ellipsoid  
+
+Tangent Velocity ( use like this : tangentVelocity) (Vector3Value)
+ - tangentVelocity 
+
+
+ShapeModule[Shape]  (use like this : ShapeModule.radius, ShapeModule.angle) (floatValue, IntValue)
+- radius
+- angle
+- boxX
+- boxY
+- boxZ
+
+EmissionModule[Emission] (use like this : EmissionModule.rate.scalar) (floatValue, IntValue)
+-rate
+    -scalar
+
+
+UVModule[Texture Sheet Animation] - (use like this : UVModule.frameOverTime.scalar) (floatValue, IntValue)
+-frameOverTime
+    -scalar
+
+-tilesX
+-tilesY
+-cycles
+	
+
+VelocityModule[Velocity over Lifetime] (use like this : VelocityModule.x.scalar) (floatValue, IntValue)
+-x
+  -scalar
+
+-y
+  -scalar
+
+-z
+  -scalar
+
+
+
+ClampVelocityModule[Limit Velocity over Lifetime] (use like this : ClampVelocityModule.x.scalar ) (floatValue ,IntValue)
+-x
+  -scalar
+
+-y
+  -scalar
+
+-z
+  -scalar
+
+-magnitude
+  -scalar
+
+
+SizeBySpeedModule[Size By Speed] (use like this : SizeBySpeedModule.curve.scalar , ClampVelocityModule.range) (floatValue ,IntValue)
+-curve
+   -scalar
+
+-range
+
+RotationBySpeedModule[Rotation By Speed] (use like this : RotationBySpeedModule .curve.scalar , RotationBySpeedModule .range) (floatValue, IntValue)
+-curve
+   -scalar
+-range
+	
+ColorBySpeedModule[Color By Speed] (use like this : ColorBySpeedModule.range) (floatValue, IntValue)
+-range
+
+CollisionModule[Collision](use like this : CollisionModule.dampen) (floatValue)
+-dampen
+-bounce
+-energyLossOnCollision
+-minKillSpeed
+-particleRadious
+
+ForceModule[Force over Lifetime] (use like this : ForceModule.x.scalar ) (floatValue, IntValue)
+-x
+  -scalar
+
+-y
+  -scalar
+
+-z
+  -scalar
+
+
+RotationModule[Rotation over LifeTime]: (use like this : RotationModule.curve.scalar) (floatValue, IntValue)
+-curve
+     -scalar
+
+
+
+SizeModule[Size over LifeTime] (use like this : SizeModule.curve.scalar, SizeModule.curve.scalar.maxCurve) (floatValue, IntValue)
+-curve
+    -scalar
+	-maxCurve
+	-minCurve
