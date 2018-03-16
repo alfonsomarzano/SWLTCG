@@ -1,0 +1,1 @@
+﻿public enum AegisTypes { Anima, Filth, Demonic, Cybernetic, Psychic }
