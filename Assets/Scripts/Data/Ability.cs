@@ -8,8 +8,12 @@ public class Ability : ScriptableObject
 {
     public string Name;
     public bool Dot;
+    public int DotTurns;
     public AbilityTypes Type;
     public int Power;
     public int Cost;
     public bool CanCrit;
+    public bool AegisPowerMatches;
+    public int AegisPower;
+    public bool CanBeUsedOnLastTurn;
 }
